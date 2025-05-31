@@ -1,0 +1,43 @@
+----//Introduction to node js-----
+
+
+-Node is not programming language
+-it is not technology
+-it is not a framework also and not a library.
+
+-node is javascript run time environment.
+- backend can't be formed from js.
+-because JS doesn't has functionalities to create backend
+
+
+- ryan dahl isne socha js se backend banna chahiye
+- google chrome ka v8 engine ka code open source hai and ryan dahl us code me chedkhani kar raha hai.
+- kyunki v8 engine  ade from c++
+- and then he thinks we have to code it in js...
+- then he wraps the c++ code with js code.
+
+-hum js ka code likhenge jo ki wrapper layer of js receive karege and wo code v8 engine ke c++ modules ke saath ek server create krega.
+
+-node js is a JS runtime environment.
+
+
+----//Installation of node js----
+-download node js LTS version 
+- open cmd
+- node -v
+- npm -v
+
+-npm is package store /app store
+- you can upload your own packages to npm and others can used it or vice versa.
+
+----//Working with node and npm-----
+
+- npm init -> package.json -> lekha jhoka of the project
+
+
+-versions of file system
+- CJS=common JS
+- ESM- ecma script modules (treaded file as a module)
+-----copy that require if you are sing cjs-----
+
+

@@ -1,0 +1,10 @@
+protocols-rules
+
+internet pe kuch bhi run hone ke liye rules banaaye gaye hai unke dwara jinhone internet banaya hai
+
+- ab unn rules ko follow krna jaruri hai aur ye rules follow ho isliye ye rules aap ke OS ke software main pre installed ate hai...
+
+http-protocol
+rule hai jisko follow kre bina aap internet pe kuch bhi nahi bhej sakte ho aur na paa sakto ho 
+
+one package-http

@@ -1,0 +1,37 @@
+- npm=node package manager
+
+-node related all packages included in npm
+
+- node js core mai install hoke ata hai woh module kehelate hai
+- aur jo hum npm se download karte hai use kehte hai package
+
+// installing and uninstalling anything
+- npm i / npm install
+
+//uninstall 
+npm uninstall package_name
+for ex- npm uninstall accessibility
+
+
+//installing particular version of package
+- npm install accessibility@3.0.9
+
+- so basically npm is used for installing,uninstalling and for managing the dev dependencies
+
+//dependencies- packages and packages ki dependencies
+// dev dependencies-  packages which are only used in development.then when the app is ready and deployed then we will not be using this dependencies
+- npm i nodemon --save-dev
+
+so this nodemon will be installed first as a dependency but after running above line it will be treated as dev dependency it will only used in development then after deploy it will be not used
+
+//start and test
+npm start
+npm test
+- they are inbuild scripts...in package.json file under scripts tag there test: if we run npm test then it will run...if we write there start:"node './script.js"
+and run npm start it will run the file means we don't have to mention node script.js instead only npm start it will work
+but let's say we define user generated script
+for ex- chinu:'echo\"Hello\"'
+then we have to mention npm run chinu for output
+
+-these scripts can be helpful when we have to run two servers simultaneously let's say one for react and one for node (mern stack)
+

@@ -1,0 +1,57 @@
+//Express.js framework
+
+//Intro to express.js
+- express js is one of the npm package.
+- it is framework :- frameworks give you flow and you have to follow it and individuality you can change but flow never changed.
+- library give you tools you can use it.
+--  express js manages everything from receiving the request and giving the response.
+--  role of express- request receiving , processing request, fetch data, get post request , blobs conversion to json, databases connection to servers all managed by express.
+
+
+
+// setting up a basic express application
+- npm i express
+- const express=require('express')
+this express is constant but one function is stored in it (express()) if we run this function then it gives all which express does...all power express() mai aa jati handling
+const app=express()  //using this you can create something
+
+--you can create routes also....
+what is routes- domain ke baad jo ata hai
+- ex- facebook.com/ (/ is route)(/profile is also route)
+inshort after domain all is route
+
+ap.get(route,requestHandler) - requestHandler is Middleware get("/",function())
+
+
+-----------Nodemon-------------
+If you made changes in your code then you have to restart your server manually 
+installing nodemon makes it easy if you made changes then it automatically restarts the execution process
+---
+nodemon installation-
+npm i nodemon -g :- global installation no need to install everytime.
+running the program- 
+1- nodemon script.js
+2- npx nodemon script.js  (if first will not run then use 2nd)
+
+
+//Middleware
+let's say from my laptop i request for facebook then it goes to facebook server and then response from server to our machine....but you can add middleware in between before routes...first rquest will goes to middleware and then goes to route...we can add our own functionality in middleware...middleware is what you want to perform before fetching the data and before our request goes to routes...
+for ex before hello will print then goes to route...kisibhi route ko chalanese pehle function perform karnar chahte ho...
+hab bhi server req accept karta hai waha sse route ke beech pahuchne tak agar aap use bich mai rukte hai and kuch perform karte ho to ye middleware hai...
+Me -> server (accept ./about)
+server -> middleware(perform functionality) -> route handler
+
+
+
+//Error handling
+error handler is provided by express js...doesn't stop your functionality
+
+app.use(function(err,req,res,next){
+    console.error(err.stack);
+    res.status(500).send('Something broke!');
+})
+
+Give some error--
+app.get('/profile',function(req,res,next){
+    return next(new Error('Profile not found'));
+})
