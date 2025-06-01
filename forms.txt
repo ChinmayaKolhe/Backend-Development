@@ -1,0 +1,15 @@
+form handling and working
+handle backend process of form and making sure the data coming from any frontend lib,framework ,template engines we still handle it at backend
+
+session cookie- 
+- hum log kuch bhi data frontend par browser pr rak sakte hai aur jab bhi aap kuch bhi request backend par karoge we frontend pr saved data automatically backend pr chala jaayega
+- the data saved on frontend is called cookie 
+- session represents a series of interactions between the sever and the user's browser within a specific timeframes
+login to logout- one session
+
+
+when we send the plain text from frontend then it gets converted to encoded format (which is unreadable format) and for that to handle it we have to again convert it from encoded format to readable text. 
+-
+app.use(express.json())
+app.use(express.urlencoded({extended:true}))
+
