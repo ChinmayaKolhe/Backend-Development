@@ -1,0 +1,1 @@
+alert("Document loaded successfully!");

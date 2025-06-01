@@ -1,0 +1,18 @@
+- Installation-
+-- npm init -y
+-- npm i express
+-- npm i ejs
+
+ejs-
+frontend is our html.
+it looks like html but you can perform calculations (dynamic stuff)
+EJS provides you dynamic powers that you can perform in html
+
+
+-Dynamic routing-
+hum log kayi br routes dekhte hai unmai sirf ek hi hissa change hota hai
+/author/chinmaya
+/author/rudra
+/author/shreya
+
+then obviously we don't create route for this all..
