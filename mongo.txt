@@ -1,0 +1,44 @@
+Data storage- storing users Data
+
+Database- stores the information which can include images,binary data, some big data and all
+
+types of databases-
+- sql (tables)
+- no-sql (collections{objects})
+
+*mongoDB-
+mongo is the database which follows nosql concepts
+
+servers-
+application server- handles routes and middleware functionality
+database server- handles database related functionality
+
+database->collections->Documents
+
+
+CODE                      Database
+----------------------------------------
+mongoose.connect ->    database create
+model create     ->    collection
+CREATE           ->    Document
+
+
+------------mongodb installation---------
+download mongodb community edition
+
+-----------mongodb connection-----------
+mongoose helps to establish connection between the node server and the mongodb server
+
+npm i mongoose
+
+ODM and ORM- 
+Object relation mapping
+object document mapping
+
+
+-----------schema---------------
+
+------------models-------------
+
+
+------------crud---------------
