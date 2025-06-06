@@ -1,0 +1,3 @@
+User ko profile dene se pehle ye check karna hota hai ke user hai kaun- authentication
+
+specific user who has permission to perform some tasks only they can perform that tasks other unauthorized users can't do that-This is simply authorization
