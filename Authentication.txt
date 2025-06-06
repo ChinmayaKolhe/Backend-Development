@@ -1,3 +1,17 @@
 User ko profile dene se pehle ye check karna hota hai ke user hai kaun- authentication
 
 specific user who has permission to perform some tasks only they can perform that tasks other unauthorized users can't do that-This is simply authorization
+
+server har baar bhool jata hai ki aap kaun ho ab kyunki server bhool jata hai aap kaun ho to har baaar wo hor kaam ke liye aapse puchega aap kaun ho..then there comes a concept session and cookies
+
+server  -->  browser
+
+browser requests for profile server wants prrof you gave email and pass and then server accepts and gives you string and it gets saved to browser (cookie)...next time when you retries for that specific profile then with your request that string will gets passed and server gets it right and allow you this time directly without any proof becauz in your browser cookie is saved.
+
+1) how to set cookie
+2) how to use bcrypt for pass encryption and decryption
+3) how to store data in jwt and access it.
+
+
+encrypt-
+Pass123- $2b$10$31/XUraKgDJfZN074u3Mo.3lkW4wVsmeIdT7Z2xxyE99L.VRGgEiy
